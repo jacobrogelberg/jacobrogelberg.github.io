@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	<title>Jacob Rogelberg</title>
+</head>
+
+<body> <!-- h1 needs to be jacob rogelberg-->
+	<script language="JavaScript">
+		var backImage = new Array(); // don't change this
+		backImage[0] = "";
+		backImage[1] = "images/NYC.jpg";
+		backImage[2] = "images/sf.jpg";
+		backImage[3] = "images/AR-wedding.jpg";
+		backImage[4] = "images/dont-think.jpg";
+
+function changeBGImage(whichImage){
+	if (document.body){
+		document.body.background = backImage[whichImage];
+	}
+}
+</script>
+
+<!-- <img class="jake-profile" src="images/jake-profile.png"></a> -->
+<nav>
+	<ul>
+		<p><img class="jake-profile" src="images/jake-profile.png"></a></p>
+		<p><a href="google.com">my story</a></p>
+		<p><a href="google.com">projects</a></p>
+		<p><a href="mailto:jacob@jacobrogelberg.com" target="_blank">contact</a></p>
+	</ul>
+</nav>
+
+<h2 style="font-family: 'Sacramento', cursive; font-size: 56px; text-align: center;">my story</h2>
+<p>Born in <a href="#" onclick="return false;" onMouseOver="javascript:changeBGImage(2)" onmouseout="changeBGImage(0)">San Francisco</a></p>
+<p>Grew up in Indiana and <a href="#" onclick="return false;" onMouseOver="javascript:changeBGImage(1)" onmouseout="changeBGImage(0)">New York</a></p>
+<p>Started college in NYC</p>
+<p>Thought I was going to be a <span class="programmer">programmer</span></p>
+<p>But was actually miserable</p>
+<p><a href="#" onclick="return false;" onMouseOver="javascript:changeBGImage(4)" onmouseout="changeBGImage(0)">Read a book</a> that changed how I see interfaces</p>
+<p>Fell <a href="#" onclick="return false;" onMouseOver="javascript:changeBGImage(3)" onmouseout="changeBGImage(0)">in love with a girl</a></p>
+<p>Started the world's largest UX community on Slack</p>
+<p>Joined <a href="http://sequence.com/" target="_blank">Sequence</a> as an interaction designer</p>
+<h3 style="font-family: 'Sacramento', cursive; font-size: 42px; text-align: center;">that's it so far!</h3>
+<p><a href="mailto:jacob@jacobrogelberg.com" target="_blank">Say hello!</a></p>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
